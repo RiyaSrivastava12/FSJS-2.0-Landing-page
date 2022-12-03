@@ -1,0 +1,90 @@
+/* You can not modify anything in the HTML */
+/* You can only modify the CSS file */
+.navbar-container{
+    display: flex;
+    flex-direction: row; 
+    /* background-color: aqua; */
+    margin-top: 20px;
+    margin-right: 70px;
+    margin-left: 70px;
+    /* justify-content: space-between; */
+}
+nav img{
+    margin-top: 10px;
+    height: 38px;
+    width: 100px;
+}
+
+.list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.list-item{
+    padding:0 10px;
+    margin: 5px;
+    color: rgba(2, 7, 11, 0.4);
+} 
+
+
+.list-item:active{
+    color: chartreuse;
+} 
+
+.button-group{
+   margin-left: auto;
+   margin-top: 15px;
+}
+
+.nav-button{
+    border: none;
+    border-radius: 6px;
+    height: 34px;
+    width: 99px;
+    color: white;
+    background-color: #686CD2;
+} 
+
+li:first-child{
+    color: black;
+}
+
+/* Banner */
+
+.banner-container{
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+.banner-container div{
+    margin-left: 70px;
+    margin-top: 70px;
+  
+}
+h1{
+    font-size: 50px;
+}
+
+.banner-container div img{
+    margin-right: none;
+    margin-top: none;
+    height: 450px;
+    width: 700px;
+}
+span{
+    color: #686CD2;
+}
+.nav-button-btn{
+    border: none;
+    margin-top: 30px;
+    border-radius: 6px;
+    height: 50px;
+    width: 150px;
+    color: white;
+    background-color: #686CD2;
+}
+
+
+
