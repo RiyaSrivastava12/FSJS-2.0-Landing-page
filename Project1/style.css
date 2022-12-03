@@ -1,90 +1,110 @@
 /* You can not modify anything in the HTML */
 /* You can only modify the CSS file */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    margin: 40px 0px 50px 60px;
+    
+}
 .navbar-container{
     display: flex;
-    flex-direction: row; 
-    /* background-color: aqua; */
-    margin-top: 20px;
-    margin-right: 70px;
-    margin-left: 70px;
-    /* justify-content: space-between; */
-}
-nav img{
-    margin-top: 10px;
-    height: 38px;
-    width: 100px;
-}
-
-.list{
-    display: flex;
-    flex-direction: row;
     justify-content: space-between;
-    list-style-type: none;
 }
-
-.list-item{
-    padding:0 10px;
-    margin: 5px;
-    color: rgba(2, 7, 11, 0.4);
-} 
-
-
-.list-item:active{
-    color: chartreuse;
-} 
-
-.button-group{
-   margin-left: auto;
-   margin-top: 15px;
-}
-
-.nav-button{
-    border: none;
-    border-radius: 6px;
-    height: 34px;
-    width: 99px;
-    color: white;
-    background-color: #686CD2;
-} 
-
-li:first-child{
-    color: black;
-}
-
-/* Banner */
-
-.banner-container{
+.grow-list ul{
     display: flex;
-    /* justify-content: space-between; */
+    list-style: none;
+    justify-content: center;
+    gap: 20px;
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: bold;
+    color: #6c757d;
+}
+.grow-list ul li:hover{
+    color: #212529;
+}
+.grow-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.grow-list ul{
+    position: relative;
+    right: 250px;
+}
+div.button-group{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+div.button-group button.nav-button{
+    border-radius: 10px;
+    height: 40px;
+    width: 120px;
+    color: #ffffff;
+    background-color: #7371fc;
+    border: 1px solid #7371fc;
+    position: relative;
+    right: 100px;
+}
+div.container nav.navbar-container div img{
+  width: 100px;
+  height: 40px;
+}
+div.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.banner-container div{
-    margin-left: 70px;
-    margin-top: 70px;
-  
+div.banner-container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
 }
-h1{
+div.banner-container img{
+    width: 600px;
+}
+div.banner-container div h1{
+    margin-right: 50px;
+}
+div.banner-container div p{
+    margin-right: 90px;
+}
+
+div h1.heading-text{
+    font-family: 'Poppins';
     font-size: 50px;
+    color: #3c096c;
+}
+div h1{
+    width: 50%;
+}
+div h1.heading-text span{
+    color: #826aed;
+}
+div p{
+    width: 60%;
+}
+div p.description{
+    font-family: 'Poppins';
+    font-size: 18px;
+    color: #6c757d;
+    margin-top: 20px;
 }
 
-.banner-container div img{
-    margin-right: none;
-    margin-top: none;
-    height: 450px;
-    width: 700px;
-}
-span{
-    color: #686CD2;
-}
-.nav-button-btn{
-    border: none;
-    margin-top: 30px;
-    border-radius: 6px;
+div.banner-container button.nav-button{
+    background-color: #7371fc;
     height: 50px;
-    width: 150px;
-    color: white;
-    background-color: #686CD2;
+    width: 180px;
+    border: 1px solid #7371fc;
+    border-radius: 10px;
+    color: #ffffff;
+    font-family: 'Poppins';
 }
-
-
-
+div.banner-container button{
+    margin-top: 50px;
+}
