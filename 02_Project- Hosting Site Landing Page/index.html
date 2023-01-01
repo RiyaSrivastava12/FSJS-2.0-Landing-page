@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hosting Site Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="logo"><a href="">
+            <svg width="120" height="120" viewBox="0 0 140 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0 15.9976V24.8839C3.02378 24.8818 6.0183 25.4784 8.81221 26.6398C11.6061 27.8011 14.1446 29.5043 16.2824 31.6519C18.4196 33.7987 20.1146 36.3475 21.2703 39.1526C22.4261 41.9576 23.0199 44.964 23.018 47.9997H31.8604C31.8524 39.5157 28.4933 31.3815 22.5202 25.3819C16.5472 19.3822 8.44802 16.0073 0 15.9976H0Z" fill="#0C8BFD"/>
+                <path d="M44.2203 0H30.207C37.2961 4.51154 43.3028 10.543 47.7963 17.6615V3.58863C47.7956 2.63664 47.4186 1.72386 46.748 1.05093C46.0775 0.378005 45.1683 -2.35566e-07 44.2203 0V0Z" fill="#0C8BFD"/>
+                <path d="M8.80468 0H0V8.00084C10.5603 8.01188 20.6849 12.2296 28.1523 19.7284C35.6197 27.2273 39.8198 37.3948 39.8311 48H47.7969V39.1579C45.9958 29.4398 41.3066 20.4973 34.3464 13.5076C27.3863 6.51787 18.4816 1.80868 8.80468 0V0Z" fill="#0C8BFD"/>
+                <path d="M69.4706 5.28369H63.8583V33.6921H69.4706V5.28369Z" fill="#0C8BFD"/>
+                <path d="M90.1062 17.5917C89.1719 16.7388 88.0783 16.0806 86.8887 15.6553C84.3334 14.7542 81.5487 14.7542 78.9934 15.6553C77.8034 16.0803 76.7093 16.7385 75.7747 17.5917C74.8581 18.4403 74.1259 19.4698 73.6238 20.6157C73.1049 21.8658 72.8378 23.2068 72.8378 24.5612C72.8378 25.9156 73.1049 27.2566 73.6238 28.5067C74.124 29.6559 74.8564 30.6882 75.7747 31.5383C76.7077 32.3921 77.8012 33.05 78.9909 33.4734C81.5459 34.3761 84.3312 34.3761 86.8862 33.4734C88.0764 33.05 89.1703 32.3921 90.1037 31.5383C91.0216 30.6879 91.7539 29.6556 92.2546 28.5067C92.7735 27.2566 93.0406 25.9156 93.0406 24.5612C93.0406 23.2068 92.7735 21.8658 92.2546 20.6157C91.753 19.4702 91.0216 18.4408 90.1062 17.5917ZM86.2523 27.9067C85.3435 28.7288 84.1636 29.1838 82.9405 29.1838C81.7173 29.1838 80.5375 28.7288 79.6286 27.9067C78.8648 26.9597 78.448 25.778 78.448 24.5593C78.448 23.3406 78.8648 22.1589 79.6286 21.2119C80.5375 20.3898 81.7173 19.9348 82.9405 19.9348C84.1636 19.9348 85.3435 20.3898 86.2523 21.2119C87.0161 22.1589 87.4329 23.3406 87.4329 24.5593C87.4329 25.778 87.0161 26.9597 86.2523 27.9067V27.9067Z" fill="#0C8BFD"/>
+                <path d="M110.255 17.8352H110.185C109.925 17.4692 109.624 17.1352 109.286 16.8398C108.878 16.477 108.426 16.1672 107.941 15.9177C106.714 15.2856 105.352 14.9634 103.974 14.9792C102.765 14.9579 101.57 15.2355 100.494 15.7876C99.4917 16.309 98.6063 17.0317 97.8932 17.9109C97.1661 18.8172 96.6082 19.8481 96.2468 20.9539C95.8624 22.0931 95.6665 23.2879 95.6669 24.4907C95.6527 25.7819 95.8683 27.0652 96.3034 28.2802C96.6976 29.389 97.3121 30.4058 98.1096 31.2688C98.9041 32.1134 99.8684 32.7786 100.938 33.2204C102.102 33.6966 103.349 33.9329 104.605 33.9152C105.534 33.899 106.453 33.7146 107.317 33.3707C108.286 33.0017 109.125 32.3546 109.73 31.5101H109.806V33.2785C109.827 33.8684 109.73 34.4565 109.521 35.0082C109.312 35.5599 108.996 36.064 108.59 36.4907C108.075 36.9484 107.472 37.2964 106.819 37.5135C106.166 37.7306 105.476 37.8124 104.791 37.7539C103.704 37.7661 102.627 37.5483 101.63 37.1147C100.638 36.6695 99.7122 36.0879 98.8794 35.3867L95.7738 40.0415C97.0432 41.0682 98.527 41.7941 100.115 42.1648C101.685 42.5276 103.292 42.7102 104.904 42.7093C108.446 42.7093 111.084 41.8137 112.817 40.0225C114.55 38.2314 115.417 35.6074 115.418 32.1505V15.4301H110.261L110.255 17.8352ZM109.918 26.1581C109.697 26.6928 109.372 27.1783 108.963 27.5867C108.547 28.0032 108.059 28.3405 107.523 28.5821C106.966 28.8303 106.364 28.9586 105.755 28.9586C105.146 28.9586 104.544 28.8303 103.987 28.5821C103.458 28.3371 102.977 28.0001 102.565 27.5867C102.154 27.1749 101.828 26.6857 101.606 26.1473C101.384 25.609 101.27 25.0319 101.27 24.4491C101.27 23.8662 101.384 23.2891 101.606 22.7508C101.828 22.2124 102.154 21.7233 102.565 21.3114C102.977 20.898 103.459 20.5607 103.987 20.3147C104.544 20.0674 105.146 19.9396 105.755 19.9396C106.364 19.9396 106.966 20.0674 107.523 20.3147C108.059 20.5573 108.547 20.8949 108.963 21.3114C109.581 21.9346 110.001 22.7273 110.171 23.5897C110.34 24.4521 110.253 25.3457 109.918 26.1581V26.1581Z" fill="#0C8BFD"/>
+                <path d="M136.503 17.5917C135.568 16.7388 134.475 16.0806 133.285 15.6553C130.73 14.7542 127.945 14.7542 125.39 15.6553C124.2 16.0803 123.106 16.7385 122.171 17.5917C121.255 18.4403 120.522 19.4698 120.02 20.6157C119.501 21.8658 119.234 23.2068 119.234 24.5612C119.234 25.9156 119.501 27.2566 120.02 28.5067C120.52 29.6559 121.253 30.6882 122.171 31.5383C123.105 32.3924 124.199 33.0503 125.39 33.4734C127.945 34.3761 130.73 34.3761 133.285 33.4734C134.475 33.05 135.569 32.3921 136.503 31.5383C137.421 30.6882 138.153 29.6559 138.654 28.5067C139.172 27.2566 139.44 25.9156 139.44 24.5612C139.44 23.2068 139.172 21.8658 138.654 20.6157C138.152 19.4698 137.419 18.4403 136.503 17.5917V17.5917ZM132.649 27.9067C131.74 28.7288 130.56 29.1838 129.337 29.1838C128.114 29.1838 126.934 28.7288 126.025 27.9067C125.261 26.9597 124.844 25.778 124.844 24.5593C124.844 23.3406 125.261 22.1589 126.025 21.2119C126.934 20.3898 128.114 19.9348 129.337 19.9348C130.56 19.9348 131.74 20.3898 132.649 21.2119C133.413 22.1589 133.829 23.3406 133.829 24.5593C133.829 25.778 133.413 26.9597 132.649 27.9067Z" fill="#0C8BFD"/>
+                </svg></a>
+        </div>
+        <ul class="nav-list">
+            <li class="nav-items"><a href=""></a>Hosting</li>
+            <li class="nav-items"><a href=""></a>Domain</li>
+            <li class="nav-items"><a href=""></a>Features</li>
+            <li class="nav-items"><a href=""></a>Support</li>
+            <li class="nav-items"><a href=""></a>Community</li>
+        </ul>
+        <button class="btn navbtn">Login</button>       
+    </nav>
+    <!-- Top main Section -->
+    <section class="first-section">
+        <div class="left-main">
+            <div class="first-content">
+                <h1 class="heading">The best and <span class="highlight">cheapest</span> hosting for your website</h1>
+                <p class="para">Hosting your website here is easy, access is fast, server security is very well maintained, and of course support by reliable servers.</p>
+            </div>
+            <div class="mainbtns">
+                <button class="btn topleftbtn">Get Started</button>
+                <button class="btn toprightbtn">Try Start Free</button>
+            </div>
+        </div>
+        <div class="right-main">
+            <img src="./assets/Illustrations/Group 238502.svg" alt="">
+        </div>
+    </section>
+    <!-- Logo Section -->
+    <section>
+        <div class="logos-section">
+            <img src="/assets/Logo.svg" alt="" height="120px" width="120px">
+            <img src="/assets/Logo.svg" alt="" height="120px" width="120px">
+            <img src="/assets/Logo.svg" alt="" height="120px" width="120px">
+            <img src="/assets/Logo.svg" alt="" height="120px" width="120px">
+        </div>
+    </section>
+    <!-- Service Section -->
+    <section>
+        <!-- Heading-->
+        <div class="service">
+            <h1 class="service-heading">The best service especially for you</h1>
+            <p class="service-para">We will serve you as best we can with the aim of <br> providing satisfaction to you.</p>
+        </div>
+        <!-- Cards -->
+        <div class="cards-section">
+            <!-- Card 1 -->
+            <div class="card card-one">
+                <svg width="96" height="96" viewBox="0 0 96 96" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="48" cy="48" r="48" fill="#0C8BFD"/>
+                    <path d="M48.0003 27.175V68.825L46.0003 71.1C43.2253 74.25 40.9503 73.4 40.9503 69.2V51.2H33.2253C29.7253 51.2 28.7503 49.05 31.0753 46.425L48.0003 27.175Z" fill="white"/>
+                    <path opacity="0.4" d="M64.925 49.575L48 68.825V27.175L50 24.9C52.775 21.75 55.05 22.6 55.05 26.8V44.8H62.775C66.275 44.8 67.25 46.95 64.925 49.575Z" fill="white"/>
+                </svg>
+                <span class="card-heading">Faster hosting process</span>
+                <span class="card-para">We can speed up the creation of your website, which is made directly by the experts.</span>
+            </div>
+            <!-- Card 2 -->
+            <div class="card card-two">
+                <svg width="96" height="96" viewBox="0 0 96 96" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="48" cy="48" r="48" fill="#0C8BFD"/>
+                    <path opacity="0.4" d="M59.475 23H38.55C29.425 23 24 28.425 24 37.525V58.45C24 67.55 29.425 72.975 38.525 72.975H59.45C68.55 72.975 73.975 67.55 73.975 58.45V37.525C74 28.425 68.575 23 59.475 23Z" fill="white"/>
+                    <path d="M64.0003 44.775C63.6003 44.775 63.2003 44.65 62.8503 44.375C54.4253 37.875 43.5503 37.875 35.1503 44.375C34.3253 45 33.1503 44.85 32.5253 44.05C31.9003 43.225 32.0503 42.05 32.8503 41.425C42.6503 33.85 55.3253 33.85 65.1503 41.425C65.9753 42.05 66.1253 43.225 65.4753 44.05C65.1253 44.525 64.5503 44.775 64.0003 44.775Z" fill="white"/>
+                    <path d="M59.9999 52.5C59.5999 52.5 59.1999 52.375 58.8499 52.1C52.8499 47.475 45.1249 47.475 39.1249 52.1C38.2999 52.725 37.1249 52.575 36.4999 51.775C35.8749 50.975 36.0249 49.775 36.8249 49.15C44.1999 43.45 53.7499 43.45 61.1249 49.15C61.9499 49.775 62.0999 50.95 61.4499 51.775C61.1249 52.25 60.5749 52.5 59.9999 52.5Z" fill="white"/>
+                    <path d="M54.4999 60.225C54.0999 60.225 53.6999 60.1 53.3499 59.825C50.6999 57.775 47.2749 57.775 44.6249 59.825C43.7999 60.45 42.6249 60.3 41.9999 59.5C41.3749 58.675 41.5249 57.5 42.3249 56.875C46.2999 53.8 51.6499 53.8 55.6249 56.875C56.4499 57.5 56.5999 58.675 55.9499 59.5C55.6249 59.975 55.0749 60.225 54.4999 60.225Z" fill="white"/>
+                </svg>
+                <span class="card-heading">Speed to access faster</span>
+                <span class="card-para">Excellent network <br> infrastructure and hardware to support fast and stable access.</span>
+            </div>
+            <!-- Card 3 -->
+            <div class="card card-three">
+                <svg width="96" height="96" viewBox="0 0 96 96" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="48" cy="48" r="48" fill="#0C8BFD"/>
+                    <path d="M61 49C54.375 49 49 54.375 49 61C49 63.25 49.625 65.375 50.75 67.175C52.825 70.65 56.625 73 61 73C65.375 73 69.2 70.65 71.25 67.175C72.35 65.375 73 63.25 73 61C73 54.375 67.625 49 61 49ZM66.95 59.425L60.55 65.325C60.2 65.65 59.725 65.825 59.275 65.825C58.8 65.825 58.325 65.65 57.95 65.275L55 62.325C54.275 61.6 54.275 60.4 55 59.675C55.725 58.95 56.925 58.95 57.65 59.675L59.325 61.35L64.4 56.65C65.15 55.95 66.35 56 67.05 56.75C67.75 57.525 67.7 58.725 66.95 59.425Z" fill="white"/>
+                    <path opacity="0.4" d="M73 39.725C73 42.7 72.525 45.45 71.7 48C71.175 49.675 70.5 51.275 69.7 52.75C67.5 50.425 64.425 49 61 49C54.375 49 49 54.375 49 61C49 64.075 50.175 66.875 52.075 69C51.15 69.425 50.3 69.775 49.55 70.025C48.7 70.325 47.3 70.325 46.45 70.025C40.425 67.975 28.25 60.5 24.3 48C23.475 45.45 23 42.7 23 39.725C23 32 29.225 25.75 36.9 25.75C41.425 25.75 45.475 27.95 48 31.325C50.525 27.95 54.575 25.75 59.1 25.75C66.775 25.75 73 32 73 39.725Z" fill="white"/>
+                </svg>
+                <span class="card-heading">Faster Service 24/7</span>
+                <span class="card-para">We have a response time of less than 150 seconds, available 24 hours a day.</span>
+            </div>
+        </div>
+    </section>
+    <!-- Support content Section-->
+    <section>
+        <!-- Heading -->
+        <div>
+            <h1 class="support-heading">We are ready to support your business needs to be more advanced</h1>
+        </div>
+        <div class="accord-section">
+            <!-- Accordion -->
+            <div class="accordions">
+                <div class="accordion-item one">
+                    <span class="accordion-heading">Our main features</span>
+                    <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="20" cy="20" r="19.5" stroke="white"/>
+                        <path d="M26 20.75H14C13.59 20.75 13.25 20.41 13.25 20C13.25 19.59 13.59 19.25 14 19.25H26C26.41 19.25 26.75 19.59 26.75 20C26.75 20.41 26.41 20.75 26 20.75Z" fill="white"/>
+                    </svg>
+                </div>
+                <div class="accordion-item two">
+                    <span class="accordion-heading">Speed optimization</span>
+                    <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="20" cy="20" r="19.5" stroke="#111010"/>
+                        <path d="M26 20.75H14C13.59 20.75 13.25 20.41 13.25 20C13.25 19.59 13.59 19.25 14 19.25H26C26.41 19.25 26.75 19.59 26.75 20C26.75 20.41 26.41 20.75 26 20.75Z" fill="#111010"/>
+                        <path d="M20 26.75C19.59 26.75 19.25 26.41 19.25 26V14C19.25 13.59 19.59 13.25 20 13.25C20.41 13.25 20.75 13.59 20.75 14V26C20.75 26.41 20.41 26.75 20 26.75Z" fill="#111010"/>
+                    </svg>
+                </div>
+                <div class="accordion-item">
+                    <span class="accordion-heading">Downtime and security optimization</span>
+                    <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="20" cy="20" r="19.5" stroke="#111010"/>
+                        <path d="M26 20.75H14C13.59 20.75 13.25 20.41 13.25 20C13.25 19.59 13.59 19.25 14 19.25H26C26.41 19.25 26.75 19.59 26.75 20C26.75 20.41 26.41 20.75 26 20.75Z" fill="#111010"/>
+                        <path d="M20 26.75C19.59 26.75 19.25 26.41 19.25 26V14C19.25 13.59 19.59 13.25 20 13.25C20.41 13.25 20.75 13.59 20.75 14V26C20.75 26.41 20.41 26.75 20 26.75Z" fill="#111010"/>
+                    </svg>
+                </div>
+                <div class="accordion-item">
+                    <span class="accordion-heading">Additional features</span>
+                    <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="20" cy="20" r="19.5" stroke="#111010"/>
+                        <path d="M26 20.75H14C13.59 20.75 13.25 20.41 13.25 20C13.25 19.59 13.59 19.25 14 19.25H26C26.41 19.25 26.75 19.59 26.75 20C26.75 20.41 26.41 20.75 26 20.75Z" fill="#111010"/>
+                        <path d="M20 26.75C19.59 26.75 19.25 26.41 19.25 26V14C19.25 13.59 19.59 13.25 20 13.25C20.41 13.25 20.75 13.59 20.75 14V26C20.75 26.41 20.41 26.75 20 26.75Z" fill="#111010"/>
+                    </svg>
+                </div>
+                <div class="accordion-item">
+                    <span class="accordion-heading">Best technical support service</span>
+                    <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="20" cy="20" r="19.5" stroke="#111010"/>
+                        <path d="M26 20.75H14C13.59 20.75 13.25 20.41 13.25 20C13.25 19.59 13.59 19.25 14 19.25H26C26.41 19.25 26.75 19.59 26.75 20C26.75 20.41 26.41 20.75 26 20.75Z" fill="#111010"/>
+                        <path d="M20 26.75C19.59 26.75 19.25 26.41 19.25 26V14C19.25 13.59 19.59 13.25 20 13.25C20.41 13.25 20.75 13.59 20.75 14V26C20.75 26.41 20.41 26.75 20 26.75Z" fill="#111010"/>
+                    </svg>
+                </div>
+            </div>
+            <!-- Accordion section-->
+            <div class="accord-list-container">
+                <!-- list items -->
+                <ul class="accordian-list">
+                    <li class="accordlist-item">Number of Websites</li>
+                    <li class="accordlist-item">Number of Email Accounts</li>
+                    <li class="accordlist-item">Unlimited MySQL Database</li>
+                    <li class="accordlist-item">Unlimited Bandwidth</li>
+                    <li class="accordlist-item">Unlimited Sub & Parked Domains</li>
+                    <li class="accordlist-item">30 Days Unconditional Guarantee</li>
+                    <li class="accordlist-item">Free Domain</li>
+                    <li class="accordlist-item">Disk Space</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!-- Hosting Content with price card section -->
+    <section>
+        <!-- Heading -->
+        <div class="priceheading-container">
+            <div><svg width="34" height="80" viewBox="0 0 64 149" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M17.2263 0C13.4387 1.79587 11.094 2.15509 10.3725 3.4122C7.66711 8.08147 4.60094 12.7507 3.15804 17.9587C-1.17066 31.7869 -0.629573 45.7947 2.25623 59.8025C7.12602 83.6876 17.9477 104.879 31.4749 124.993C32.9178 127.148 34.1804 129.303 35.6233 131.637C35.6233 131.817 35.4429 132.176 35.0822 132.715C31.1142 131.637 26.9659 130.56 22.9979 129.662C20.8336 129.303 18.3085 129.303 16.1441 130.021C14.8816 130.38 13.078 132.356 13.078 133.613C13.078 135.229 14.3405 137.205 15.4227 138.641C16.3245 139.539 17.9478 139.719 19.3907 140.078C30.2124 142.772 41.0342 145.825 52.0363 148.339C61.4152 150.494 64.4813 147.441 63.9402 138.282C63.3991 128.764 63.2188 119.246 62.8581 109.907C62.6777 107.034 62.1366 103.981 61.7759 100.748C54.2007 104.161 54.2006 104.161 51.4952 133.254C40.1324 120.683 32.5571 107.034 25.523 93.0261C18.4889 79.0183 13.7994 64.2922 11.2744 48.6681C8.74928 32.5053 11.8154 17.2404 17.2263 0Z" fill="white"/>
+                </svg>
+            </div>
+            <div>
+                <h1 class="hostingprice-heading">Hosting your website with the services we provide</h1>
+            </div>
+            <div>
+                <svg width="34" height="80" viewBox="0 0 64 149" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M46.7737 0C50.5613 1.79587 52.906 2.15509 53.6275 3.4122C56.3329 8.08147 59.3991 12.7507 60.842 17.9587C65.1707 31.7869 64.6296 45.7947 61.7438 59.8025C56.874 83.6876 46.0523 104.879 32.5251 124.993C31.0822 127.148 29.8196 129.303 28.3767 131.637C28.3767 131.817 28.5571 132.176 28.9178 132.715C32.8858 131.637 37.0341 130.56 41.0021 129.662C43.1664 129.303 45.6915 129.303 47.8559 130.021C49.1184 130.38 50.922 132.356 50.922 133.613C50.922 135.229 49.6595 137.205 48.5773 138.641C47.6755 139.539 46.0522 139.719 44.6093 140.078C33.7876 142.772 22.9658 145.825 11.9637 148.339C2.58481 150.494 -0.4813 147.441 0.0597839 138.282C0.600872 128.764 0.781189 119.246 1.14191 109.907C1.32228 107.034 1.86338 103.981 2.2241 100.748C9.79933 104.161 9.79935 104.161 12.5048 133.254C23.8676 120.683 31.4429 107.034 38.477 93.0261C45.5111 79.0183 50.2006 64.2922 52.7256 48.6681C55.2507 32.5053 52.1846 17.2404 46.7737 0Z" fill="white"/>
+                </svg>
+            </div>
+        </div>
+        <!-- Carousels -->
+        <div class="hosting-price">
+            <div class="pricing-carousel">
+                <div class="pricing-info">
+                    <div class="pricing-deal">Regular</div>
+                    <div class="pricing">$8,9<span>/month</span></div>
+                    <div class="pricing-type">Suitable for you who will build a website and others.</div>
+                </div>
+                <div class="pricing-avail">
+                    <ul class="availing-list">
+                        <li><svg width="15" height="15" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M10 0C4.49 0 0 4.49 0 10C0 15.51 4.49 20 10 20C15.51 20 20 15.51 20 10C20 4.49 15.51 0 10 0ZM14.78 7.7L9.11 13.37C8.97 13.51 8.78 13.59 8.58 13.59C8.38 13.59 8.19 13.51 8.05 13.37L5.22 10.54C4.93 10.25 4.93 9.77 5.22 9.48C5.51 9.19 5.99 9.19 6.28 9.48L8.58 11.78L13.72 6.64C14.01 6.35 14.49 6.35 14.78 6.64C15.07 6.93 15.07 7.4 14.78 7.7Z" fill="#0C8BFD"/>
+                            </svg> Up to 16,000 Visitors/Month</li>
+                        <li><svg width="15" height="15" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M10 0C4.49 0 0 4.49 0 10C0 15.51 4.49 20 10 20C15.51 20 20 15.51 20 10C20 4.49 15.51 0 10 0ZM14.78 7.7L9.11 13.37C8.97 13.51 8.78 13.59 8.58 13.59C8.38 13.59 8.19 13.51 8.05 13.37L5.22 10.54C4.93 10.25 4.93 9.77 5.22 9.48C5.51 9.19 5.99 9.19 6.28 9.48L8.58 11.78L13.72 6.64C14.01 6.35 14.49 6.35 14.78 6.64C15.07 6.93 15.07 7.4 14.78 7.7Z" fill="#0C8BFD"/>
+                            </svg> 500MB SSD Disk Space</li>
+                        <li><svg width="15" height="15" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M10 0C4.49 0 0 4.49 0 10C0 15.51 4.49 20 10 20C15.51 20 20 15.51 20 10C20 4.49 15.51 0 10 0ZM14.78 7.7L9.11 13.37C8.97 13.51 8.78 13.59 8.58 13.59C8.38 13.59 8.19 13.51 8.05 13.37L5.22 10.54C4.93 10.25 4.93 9.77 5.22 9.48C5.51 9.19 5.99 9.19 6.28 9.48L8.58 11.78L13.72 6.64C14.01 6.35 14.49 6.35 14.78 6.64C15.07 6.93 15.07 7.4 14.78 7.7Z" fill="#0C8BFD"/>
+                            </svg> Unlimited Bandwidth</li>
+                        <li><svg width="15" height="15" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M10 0C4.49 0 0 4.49 0 10C0 15.51 4.49 20 10 20C15.51 20 20 15.51 20 10C20 4.49 15.51 0 10 0ZM14.78 7.7L9.11 13.37C8.97 13.51 8.78 13.59 8.58 13.59C8.38 13.59 8.19 13.51 8.05 13.37L5.22 10.54C4.93 10.25 4.93 9.77 5.22 9.48C5.51 9.19 5.99 9.19 6.28 9.48L8.58 11.78L13.72 6.64C14.01 6.35 14.49 6.35 14.78 6.64C15.07 6.93 15.07 7.4 14.78 7.7Z" fill="#0C8BFD"/>
+                            </svg> Unlimited Databases</li>
+                        <li><svg width="15" height="15" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M10 0C4.49 0 0 4.49 0 10C0 15.51 4.49 20 10 20C15.51 20 20 15.51 20 10C20 4.49 15.51 0 10 0ZM14.78 7.7L9.11 13.37C8.97 13.51 8.78 13.59 8.58 13.59C8.38 13.59 8.19 13.51 8.05 13.37L5.22 10.54C4.93 10.25 4.93 9.77 5.22 9.48C5.51 9.19 5.99 9.19 6.28 9.48L8.58 11.78L13.72 6.64C14.01 6.35 14.49 6.35 14.78 6.64C15.07 6.93 15.07 7.4 14.78 7.7Z" fill="#0C8BFD"/>
+                            </svg> Instant Backup</li>
+                        <li><svg width="15" height="15" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M10 0C4.49 0 0 4.49 0 10C0 15.51 4.49 20 10 20C15.51 20 20 15.51 20 10C20 4.49 15.51 0 10 0ZM14.78 7.7L9.11 13.37C8.97 13.51 8.78 13.59 8.58 13.59C8.38 13.59 8.19 13.51 8.05 13.37L5.22 10.54C4.93 10.25 4.93 9.77 5.22 9.48C5.51 9.19 5.99 9.19 6.28 9.48L8.58 11.78L13.72 6.64C14.01 6.35 14.49 6.35 14.78 6.64C15.07 6.93 15.07 7.4 14.78 7.7Z" fill="#0C8BFD"/>
+                            </svg> 1 Email Account</li>
+                        <li><svg width="15" height="15" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M10 0C4.49 0 0 4.49 0 10C0 15.51 4.49 20 10 20C15.51 20 20 15.51 20 10C20 4.49 15.51 0 10 0ZM14.78 7.7L9.11 13.37C8.97 13.51 8.78 13.59 8.58 13.59C8.38 13.59 8.19 13.51 8.05 13.37L5.22 10.54C4.93 10.25 4.93 9.77 5.22 9.48C5.51 9.19 5.99 9.19 6.28 9.48L8.58 11.78L13.72 6.64C14.01 6.35 14.49 6.35 14.78 6.64C15.07 6.93 15.07 7.4 14.78 7.7Z" fill="#0C8BFD"/>
+                            </svg> 1 Domain</li>
+                    </ul>
+                </div>
+                <div><button class="btn pricingbtn">Select</button></div>
+            </div>
+            <div class="pricing-carousel mid">
+                <div class="pricing-info mid-info">
+                    <div class="pricing-deal">Standard</div>
+                    <div class="pricing mid-pricing">$12,98<span>/month</span></div>
+                    <div class="pricing-type">Suitable for business, such as a website or management system for complaints.</div>
+                </div>
+                <div class="pricing-avail">
+                    <ul class="availing-list">
+                        <li><svg width="15" height="15" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M10 0C4.49 0 0 4.49 0 10C0 15.51 4.49 20 10 20C15.51 20 20 15.51 20 10C20 4.49 15.51 0 10 0ZM14.78 7.7L9.11 13.37C8.97 13.51 8.78 13.59 8.58 13.59C8.38 13.59 8.19 13.51 8.05 13.37L5.22 10.54C4.93 10.25 4.93 9.77 5.22 9.48C5.51 9.19 5.99 9.19 6.28 9.48L8.58 11.78L13.72 6.64C14.01 6.35 14.49 6.35 14.78 6.64C15.07 6.93 15.07 7.4 14.78 7.7Z" fill="white"/>
+                            </svg> Up to 36,000 Visitors/Month</li>
+                        <li><svg width="15" height="15" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M10 0C4.49 0 0 4.49 0 10C0 15.51 4.49 20 10 20C15.51 20 20 15.51 20 10C20 4.49 15.51 0 10 0ZM14.78 7.7L9.11 13.37C8.97 13.51 8.78 13.59 8.58 13.59C8.38 13.59 8.19 13.51 8.05 13.37L5.22 10.54C4.93 10.25 4.93 9.77 5.22 9.48C5.51 9.19 5.99 9.19 6.28 9.48L8.58 11.78L13.72 6.64C14.01 6.35 14.49 6.35 14.78 6.64C15.07 6.93 15.07 7.4 14.78 7.7Z" fill="white"/>
+                            </svg> Unlimited SSD Disk Space</li>
+                        <li><svg width="15" height="15" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M10 0C4.49 0 0 4.49 0 10C0 15.51 4.49 20 10 20C15.51 20 20 15.51 20 10C20 4.49 15.51 0 10 0ZM14.78 7.7L9.11 13.37C8.97 13.51 8.78 13.59 8.58 13.59C8.38 13.59 8.19 13.51 8.05 13.37L5.22 10.54C4.93 10.25 4.93 9.77 5.22 9.48C5.51 9.19 5.99 9.19 6.28 9.48L8.58 11.78L13.72 6.64C14.01 6.35 14.49 6.35 14.78 6.64C15.07 6.93 15.07 7.4 14.78 7.7Z" fill="white"/>
+                            </svg> Unlimited Bandwidth</li>
+                        <li><svg width="15" height="15" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M10 0C4.49 0 0 4.49 0 10C0 15.51 4.49 20 10 20C15.51 20 20 15.51 20 10C20 4.49 15.51 0 10 0ZM14.78 7.7L9.11 13.37C8.97 13.51 8.78 13.59 8.58 13.59C8.38 13.59 8.19 13.51 8.05 13.37L5.22 10.54C4.93 10.25 4.93 9.77 5.22 9.48C5.51 9.19 5.99 9.19 6.28 9.48L8.58 11.78L13.72 6.64C14.01 6.35 14.49 6.35 14.78 6.64C15.07 6.93 15.07 7.4 14.78 7.7Z" fill="white"/>
+                            </svg> Unlimited Databases</li>
+                        <li><svg width="15" height="15" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M10 0C4.49 0 0 4.49 0 10C0 15.51 4.49 20 10 20C15.51 20 20 15.51 20 10C20 4.49 15.51 0 10 0ZM14.78 7.7L9.11 13.37C8.97 13.51 8.78 13.59 8.58 13.59C8.38 13.59 8.19 13.51 8.05 13.37L5.22 10.54C4.93 10.25 4.93 9.77 5.22 9.48C5.51 9.19 5.99 9.19 6.28 9.48L8.58 11.78L13.72 6.64C14.01 6.35 14.49 6.35 14.78 6.64C15.07 6.93 15.07 7.4 14.78 7.7Z" fill="white"/>
+                            </svg> Instant Backup</li>
+                        <li><svg width="15" height="15" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M10 0C4.49 0 0 4.49 0 10C0 15.51 4.49 20 10 20C15.51 20 20 15.51 20 10C20 4.49 15.51 0 10 0ZM14.78 7.7L9.11 13.37C8.97 13.51 8.78 13.59 8.58 13.59C8.38 13.59 8.19 13.51 8.05 13.37L5.22 10.54C4.93 10.25 4.93 9.77 5.22 9.48C5.51 9.19 5.99 9.19 6.28 9.48L8.58 11.78L13.72 6.64C14.01 6.35 14.49 6.35 14.78 6.64C15.07 6.93 15.07 7.4 14.78 7.7Z" fill="white"/>
+                            </svg> Unlimited Account</li>
+                        <li><svg width="15" height="15" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M10 0C4.49 0 0 4.49 0 10C0 15.51 4.49 20 10 20C15.51 20 20 15.51 20 10C20 4.49 15.51 0 10 0ZM14.78 7.7L9.11 13.37C8.97 13.51 8.78 13.59 8.58 13.59C8.38 13.59 8.19 13.51 8.05 13.37L5.22 10.54C4.93 10.25 4.93 9.77 5.22 9.48C5.51 9.19 5.99 9.19 6.28 9.48L8.58 11.78L13.72 6.64C14.01 6.35 14.49 6.35 14.78 6.64C15.07 6.93 15.07 7.4 14.78 7.7Z" fill="white"/>
+                            </svg> Unlimited Addon Domain</li>
+                    </ul>
+                </div>
+                <div><button class="btn pricingbtn midpricingbtn">Select</button></div>
+            </div>
+            <div class="pricing-carousel">
+                <div class="pricing-info">
+                    <div class="pricing-deal">Premium</div>
+                    <div class="pricing">$19,99<span>/month</span></div>
+                    <div class="pricing-type">Suitable for those of you who need special physical server performance and security.</div>
+                </div>
+                <div class="pricing-avail">
+                    <ul class="availing-list">
+                        <li><svg width="15" height="15" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M10 0C4.49 0 0 4.49 0 10C0 15.51 4.49 20 10 20C15.51 20 20 15.51 20 10C20 4.49 15.51 0 10 0ZM14.78 7.7L9.11 13.37C8.97 13.51 8.78 13.59 8.58 13.59C8.38 13.59 8.19 13.51 8.05 13.37L5.22 10.54C4.93 10.25 4.93 9.77 5.22 9.48C5.51 9.19 5.99 9.19 6.28 9.48L8.58 11.78L13.72 6.64C14.01 6.35 14.49 6.35 14.78 6.64C15.07 6.93 15.07 7.4 14.78 7.7Z" fill="#0C8BFD"/>
+                            </svg> Up to 2,00,000 Visitors/Month</li>
+                        <li><svg width="15" height="15" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M10 0C4.49 0 0 4.49 0 10C0 15.51 4.49 20 10 20C15.51 20 20 15.51 20 10C20 4.49 15.51 0 10 0ZM14.78 7.7L9.11 13.37C8.97 13.51 8.78 13.59 8.58 13.59C8.38 13.59 8.19 13.51 8.05 13.37L5.22 10.54C4.93 10.25 4.93 9.77 5.22 9.48C5.51 9.19 5.99 9.19 6.28 9.48L8.58 11.78L13.72 6.64C14.01 6.35 14.49 6.35 14.78 6.64C15.07 6.93 15.07 7.4 14.78 7.7Z" fill="#0C8BFD"/>
+                            </svg> 500MB SSD Disk Space</li>
+                        <li><svg width="15" height="15" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M10 0C4.49 0 0 4.49 0 10C0 15.51 4.49 20 10 20C15.51 20 20 15.51 20 10C20 4.49 15.51 0 10 0ZM14.78 7.7L9.11 13.37C8.97 13.51 8.78 13.59 8.58 13.59C8.38 13.59 8.19 13.51 8.05 13.37L5.22 10.54C4.93 10.25 4.93 9.77 5.22 9.48C5.51 9.19 5.99 9.19 6.28 9.48L8.58 11.78L13.72 6.64C14.01 6.35 14.49 6.35 14.78 6.64C15.07 6.93 15.07 7.4 14.78 7.7Z" fill="#0C8BFD"/>
+                            </svg> Unlimited Bandwidth</li>
+                        <li><svg width="15" height="15" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M10 0C4.49 0 0 4.49 0 10C0 15.51 4.49 20 10 20C15.51 20 20 15.51 20 10C20 4.49 15.51 0 10 0ZM14.78 7.7L9.11 13.37C8.97 13.51 8.78 13.59 8.58 13.59C8.38 13.59 8.19 13.51 8.05 13.37L5.22 10.54C4.93 10.25 4.93 9.77 5.22 9.48C5.51 9.19 5.99 9.19 6.28 9.48L8.58 11.78L13.72 6.64C14.01 6.35 14.49 6.35 14.78 6.64C15.07 6.93 15.07 7.4 14.78 7.7Z" fill="#0C8BFD"/>
+                            </svg> Unlimited Databases</li>
+                        <li><svg width="15" height="15" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M10 0C4.49 0 0 4.49 0 10C0 15.51 4.49 20 10 20C15.51 20 20 15.51 20 10C20 4.49 15.51 0 10 0ZM14.78 7.7L9.11 13.37C8.97 13.51 8.78 13.59 8.58 13.59C8.38 13.59 8.19 13.51 8.05 13.37L5.22 10.54C4.93 10.25 4.93 9.77 5.22 9.48C5.51 9.19 5.99 9.19 6.28 9.48L8.58 11.78L13.72 6.64C14.01 6.35 14.49 6.35 14.78 6.64C15.07 6.93 15.07 7.4 14.78 7.7Z" fill="#0C8BFD"/>
+                            </svg> Instant Backup</li>
+                        <li><svg width="15" height="15" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M10 0C4.49 0 0 4.49 0 10C0 15.51 4.49 20 10 20C15.51 20 20 15.51 20 10C20 4.49 15.51 0 10 0ZM14.78 7.7L9.11 13.37C8.97 13.51 8.78 13.59 8.58 13.59C8.38 13.59 8.19 13.51 8.05 13.37L5.22 10.54C4.93 10.25 4.93 9.77 5.22 9.48C5.51 9.19 5.99 9.19 6.28 9.48L8.58 11.78L13.72 6.64C14.01 6.35 14.49 6.35 14.78 6.64C15.07 6.93 15.07 7.4 14.78 7.7Z" fill="#0C8BFD"/>
+                            </svg> Unlimited Email Account</li>
+                        <li><svg width="15" height="15" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M10 0C4.49 0 0 4.49 0 10C0 15.51 4.49 20 10 20C15.51 20 20 15.51 20 10C20 4.49 15.51 0 10 0ZM14.78 7.7L9.11 13.37C8.97 13.51 8.78 13.59 8.58 13.59C8.38 13.59 8.19 13.51 8.05 13.37L5.22 10.54C4.93 10.25 4.93 9.77 5.22 9.48C5.51 9.19 5.99 9.19 6.28 9.48L8.58 11.78L13.72 6.64C14.01 6.35 14.49 6.35 14.78 6.64C15.07 6.93 15.07 7.4 14.78 7.7Z" fill="#0C8BFD"/>
+                            </svg> Free Domain</li>
+                    </ul>
+                </div>
+                <div><button class="btn pricingbtn">Select</button></div>
+            </div>
+        </div>
+        <!-- Testimonial Section -->
+        <div>
+            <!-- Heading -->
+            <div class="testimonial-content">
+                <div><h1 class="testimonial-heading">What do our customers say?</h1></div>
+                <div><p class="testimonial-para">You will definitely be surprised how our customers comment on what we do so well because we really priortize the satisfaction of our customers.</p></div>         
+            </div>
+        </div>  
+        <!-- Carousels -->
+        <div class="horizontal-scroll-bar">
+            <!-- 1st Testimonal -->
+            <div class="testimonial-carousel">                  
+                <div class="testimonial-person">
+                    <div class="blockquote">
+                        <img src="./assets/Icons/vuesax/bulk/vuesax/bulk/Vector.svg" alt="quotation">
+                        <img src="./assets/Icons/vuesax/bulk/vuesax/bulk/Vector-1.svg" alt="quotation">
+                    </div>
+                    <p class="person-name">Slamet Wijaya</p>
+                    <p class="about-person">CEO Tokped</p>
+                </div>
+                <div class="testimonial-description">
+                        <div>
+                            <p class="testimonial">Web hosting that I highly recommend because <br> the service provided is good, hosting is <br> fast so with a pretty fantastic speed.</p>
+                        </div>
+                    <div class="stars">
+                        <img src="./assets/Icons/Star.svg" alt="">
+                        <img src="./assets/Icons/Star.svg" alt="">
+                        <img src="./assets/Icons/Star.svg" alt="">
+                        <img src="./assets/Icons/Star.svg" alt="">
+                        <img src="./assets/Icons/Star.svg" alt="">
+                    </div>
+                </div>    
+            </div>
+            <!-- 2nd Testimonal -->
+            <div class="testimonial-carousel carousel-two">                  
+                <div class="testimonial-person">
+                    <div class="blockquote">
+                        <img src="./assets/Icons/vuesax/bulk/vuesax/bulk/Vector.svg" alt="quotation">
+                        <img src="./assets/Icons/vuesax/bulk/vuesax/bulk/Vector-1.svg" alt="quotation">
+                    </div>
+                    <p class="person-name">Turman Tasim</p>
+                    <p class="about-person">CEO Sickuy</p>
+                </div>
+                <div class="testimonial-description">
+                        <p class="testimonial">I am very satisfied with the help of web hosting <br> here because the service is very good,the <br> hosting is fast so the speed is quite fantastic.</p>
+                    <div class="stars">
+                        <img src="./assets/Icons/Star.svg" alt="">
+                        <img src="./assets/Icons/Star.svg" alt="">
+                        <img src="./assets/Icons/Star.svg" alt="">
+                        <img src="./assets/Icons/Star.svg" alt="">
+                        <img src="./assets/Icons/Star.svg" alt="">
+                    </div>
+                </div>    
+            </div>
+            <!-- 3rd Testimonal -->
+            <div class="testimonial-carousel">                  
+                <div class="testimonial-person">
+                    <div class="blockquote">
+                        <img src="./assets/Icons/vuesax/bulk/vuesax/bulk/Vector.svg" alt="quotation">
+                        <img src="./assets/Icons/vuesax/bulk/vuesax/bulk/Vector-1.svg" alt="quotation">
+                    </div>
+                    <p class="person-name">Slamet Wijaya</p>
+                    <p class="about-person">CEO Tokped</p>
+                </div>
+                <div class="testimonial-description">
+                        <div>
+                            <p class="testimonial">Web hosting that I highly recommend because <br> the service provided is good, hosting is <br> fast so with a pretty fantastic speed.</p>
+                        </div>
+                    <div class="stars">
+                        <img src="./assets/Icons/Star.svg" alt="">
+                        <img src="./assets/Icons/Star.svg" alt="">
+                        <img src="./assets/Icons/Star.svg" alt="">
+                        <img src="./assets/Icons/Star.svg" alt="">
+                        <img src="./assets/Icons/Star.svg" alt="">
+                    </div>
+                </div>    
+            </div>
+        </div>
+        <!-- Horizontal Scroll -->
+        <div>
+            <div class="scrollflow"></div>
+            <div class="space"></div>
+        </div>
+        <!-- Sign-up Section -->
+        <div class="sign-up-section">
+            <div>
+                <h1 class="sign-up-heading">Sign Up now for as much hosting and domain as you want for $20.99/year</h1>
+            </div>
+            <!-- Input Section -->
+            <div class="signup-wrap">
+                <div class="signup-input">
+                    <input type="text" placeholder="Name">
+                    <input type="text" placeholder="E-mail Address">
+                    <input type="text" placeholder="Password">
+                    <div><button class="btn signupbtn">Sign Up</button></div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <!-- Footer Section -->
+            <div class="line-one"><hr class="footer-line"></div>
+
+            <div class="footer-list">
+     
+                <ul>
+                    <li id="footerlist-heading">Company</li>
+                    <li>About Us</li>
+                    <li>Contact Us</li>
+                    <li>Career</li>
+                    <li>Blog</li>
+                </ul>
+    
+                <ul>
+                    <li id="footerlist-heading">Features</li>
+                    <li>Domain</li>
+                    <li>Hosting</li>
+                    <li>Wordpress</li>
+                    <li>Web Security</li>
+                </ul>
+ 
+                <ul class="help">
+                    <li id="footerlist-heading">Help</li>
+                    <li>Payment method</li>
+                    <li>Knowledge Base</li>
+                    <li>Tutorials</li>
+                </ul>
+    
+                <ul>
+                    <li id="footerlist-heading">Social Media</li>
+                    <li>Instagram</li>
+                    <li>Twitter</li>
+                    <li>Facebook</li>
+                    <li>Youtube</li>
+                </ul>
+            </div>
+
+            <div class="line-two"><hr class="footer-line"></div>
+            <div class="footer-logo"><a href="">
+                <svg width="120" height="38" viewBox="0 0 140 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0 15.9976V24.8839C3.02378 24.8818 6.0183 25.4784 8.81221 26.6398C11.6061 27.8011 14.1446 29.5043 16.2824 31.6519C18.4196 33.7987 20.1146 36.3475 21.2703 39.1526C22.4261 41.9576 23.0199 44.964 23.018 47.9997H31.8604C31.8524 39.5157 28.4933 31.3815 22.5202 25.3819C16.5472 19.3822 8.44802 16.0073 0 15.9976H0Z" fill="#0C8BFD"/>
+                    <path d="M44.2203 0H30.207C37.2961 4.51154 43.3028 10.543 47.7963 17.6615V3.58863C47.7956 2.63664 47.4186 1.72386 46.748 1.05093C46.0775 0.378005 45.1683 -2.35566e-07 44.2203 0V0Z" fill="#0C8BFD"/>
+                    <path d="M8.80468 0H0V8.00084C10.5603 8.01188 20.6849 12.2296 28.1523 19.7284C35.6197 27.2273 39.8198 37.3948 39.8311 48H47.7969V39.1579C45.9958 29.4398 41.3066 20.4973 34.3464 13.5076C27.3863 6.51787 18.4816 1.80868 8.80468 0V0Z" fill="#0C8BFD"/>
+                    <path d="M69.4706 5.28369H63.8583V33.6921H69.4706V5.28369Z" fill="#0C8BFD"/>
+                    <path d="M90.1062 17.5917C89.1719 16.7388 88.0783 16.0806 86.8887 15.6553C84.3334 14.7542 81.5487 14.7542 78.9934 15.6553C77.8034 16.0803 76.7093 16.7385 75.7747 17.5917C74.8581 18.4403 74.1259 19.4698 73.6238 20.6157C73.1049 21.8658 72.8378 23.2068 72.8378 24.5612C72.8378 25.9156 73.1049 27.2566 73.6238 28.5067C74.124 29.6559 74.8564 30.6882 75.7747 31.5383C76.7077 32.3921 77.8012 33.05 78.9909 33.4734C81.5459 34.3761 84.3312 34.3761 86.8862 33.4734C88.0764 33.05 89.1703 32.3921 90.1037 31.5383C91.0216 30.6879 91.7539 29.6556 92.2546 28.5067C92.7735 27.2566 93.0406 25.9156 93.0406 24.5612C93.0406 23.2068 92.7735 21.8658 92.2546 20.6157C91.753 19.4702 91.0216 18.4408 90.1062 17.5917ZM86.2523 27.9067C85.3435 28.7288 84.1636 29.1838 82.9405 29.1838C81.7173 29.1838 80.5375 28.7288 79.6286 27.9067C78.8648 26.9597 78.448 25.778 78.448 24.5593C78.448 23.3406 78.8648 22.1589 79.6286 21.2119C80.5375 20.3898 81.7173 19.9348 82.9405 19.9348C84.1636 19.9348 85.3435 20.3898 86.2523 21.2119C87.0161 22.1589 87.4329 23.3406 87.4329 24.5593C87.4329 25.778 87.0161 26.9597 86.2523 27.9067V27.9067Z" fill="#0C8BFD"/>
+                    <path d="M110.255 17.8352H110.185C109.925 17.4692 109.624 17.1352 109.286 16.8398C108.878 16.477 108.426 16.1672 107.941 15.9177C106.714 15.2856 105.352 14.9634 103.974 14.9792C102.765 14.9579 101.57 15.2355 100.494 15.7876C99.4917 16.309 98.6063 17.0317 97.8932 17.9109C97.1661 18.8172 96.6082 19.8481 96.2468 20.9539C95.8624 22.0931 95.6665 23.2879 95.6669 24.4907C95.6527 25.7819 95.8683 27.0652 96.3034 28.2802C96.6976 29.389 97.3121 30.4058 98.1096 31.2688C98.9041 32.1134 99.8684 32.7786 100.938 33.2204C102.102 33.6966 103.349 33.9329 104.605 33.9152C105.534 33.899 106.453 33.7146 107.317 33.3707C108.286 33.0017 109.125 32.3546 109.73 31.5101H109.806V33.2785C109.827 33.8684 109.73 34.4565 109.521 35.0082C109.312 35.5599 108.996 36.064 108.59 36.4907C108.075 36.9484 107.472 37.2964 106.819 37.5135C106.166 37.7306 105.476 37.8124 104.791 37.7539C103.704 37.7661 102.627 37.5483 101.63 37.1147C100.638 36.6695 99.7122 36.0879 98.8794 35.3867L95.7738 40.0415C97.0432 41.0682 98.527 41.7941 100.115 42.1648C101.685 42.5276 103.292 42.7102 104.904 42.7093C108.446 42.7093 111.084 41.8137 112.817 40.0225C114.55 38.2314 115.417 35.6074 115.418 32.1505V15.4301H110.261L110.255 17.8352ZM109.918 26.1581C109.697 26.6928 109.372 27.1783 108.963 27.5867C108.547 28.0032 108.059 28.3405 107.523 28.5821C106.966 28.8303 106.364 28.9586 105.755 28.9586C105.146 28.9586 104.544 28.8303 103.987 28.5821C103.458 28.3371 102.977 28.0001 102.565 27.5867C102.154 27.1749 101.828 26.6857 101.606 26.1473C101.384 25.609 101.27 25.0319 101.27 24.4491C101.27 23.8662 101.384 23.2891 101.606 22.7508C101.828 22.2124 102.154 21.7233 102.565 21.3114C102.977 20.898 103.459 20.5607 103.987 20.3147C104.544 20.0674 105.146 19.9396 105.755 19.9396C106.364 19.9396 106.966 20.0674 107.523 20.3147C108.059 20.5573 108.547 20.8949 108.963 21.3114C109.581 21.9346 110.001 22.7273 110.171 23.5897C110.34 24.4521 110.253 25.3457 109.918 26.1581V26.1581Z" fill="#0C8BFD"/>
+                    <path d="M136.503 17.5917C135.568 16.7388 134.475 16.0806 133.285 15.6553C130.73 14.7542 127.945 14.7542 125.39 15.6553C124.2 16.0803 123.106 16.7385 122.171 17.5917C121.255 18.4403 120.522 19.4698 120.02 20.6157C119.501 21.8658 119.234 23.2068 119.234 24.5612C119.234 25.9156 119.501 27.2566 120.02 28.5067C120.52 29.6559 121.253 30.6882 122.171 31.5383C123.105 32.3924 124.199 33.0503 125.39 33.4734C127.945 34.3761 130.73 34.3761 133.285 33.4734C134.475 33.05 135.569 32.3921 136.503 31.5383C137.421 30.6882 138.153 29.6559 138.654 28.5067C139.172 27.2566 139.44 25.9156 139.44 24.5612C139.44 23.2068 139.172 21.8658 138.654 20.6157C138.152 19.4698 137.419 18.4403 136.503 17.5917V17.5917ZM132.649 27.9067C131.74 28.7288 130.56 29.1838 129.337 29.1838C128.114 29.1838 126.934 28.7288 126.025 27.9067C125.261 26.9597 124.844 25.778 124.844 24.5593C124.844 23.3406 125.261 22.1589 126.025 21.2119C126.934 20.3898 128.114 19.9348 129.337 19.9348C130.56 19.9348 131.74 20.3898 132.649 21.2119C133.413 22.1589 133.829 23.3406 133.829 24.5593C133.829 25.778 133.413 26.9597 132.649 27.9067Z" fill="#0C8BFD"/>
+                </svg></a>
+            </div>
+        </footer>
+    </section>
+</body>
+</html>
