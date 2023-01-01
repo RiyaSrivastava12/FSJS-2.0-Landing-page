@@ -3,7 +3,7 @@
 ## Task
 - Replicate the below output as a responsive webpage.
 
-## **Landing Page**: [Live link]()
+## **Landing Page**: [Live link](https://ephemeral-monstera-4328dd.netlify.app/)
 
 `Assests are Provided!`
 
