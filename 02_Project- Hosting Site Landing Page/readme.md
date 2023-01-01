@@ -3,7 +3,7 @@
 ## Task
 - Replicate the below output as a responsive webpage.
 
-## **Landing Page**: [Live link]()
+## **Landing Page**: [Live link](https://funny-buttercream-7f6f05.netlify.app/)
 
 `Assests are Provided!`
 
